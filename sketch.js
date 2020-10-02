@@ -7,7 +7,7 @@ var score
 function preload(){
   
   
-  monkey_running =            loadAnimation("monkey_0.png","monkey_1.png","monkey_2.png","monkey_3.png","monkey_4.png","monkey_5.png","monkey_6.png","monkey_7.png","monkey_8.png")
+  monkey_running = loadAnimation("monkey_0.png","monkey_1.png","monkey_2.png","monkey_3.png","monkey_4.png","monkey_5.png","monkey_6.png","monkey_7.png","monkey_8.png")
   
   bananaImage = loadImage("banana.png");
   obstaceImage = loadImage("obstacle.png");
@@ -45,7 +45,7 @@ function setup() {
 
 function draw() {
   
-  background(255);
+  background("aqua");
   
     
   if(ground.x<0) {
